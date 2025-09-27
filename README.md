@@ -80,7 +80,7 @@ I collaborate closely with cross-functional teams to deliver scalable, robust bu
 
 | Project | Description | Technologies | Status |
 |---------|-------------|--------------|--------|
-| **🍔 FoodieHub** | Complete food tender system for restaurant management | `Odoo` `Python` `PostgreSQL` | ✅ Delivered |
+| **🍔 FoodieHub(solo)** | Complete food tender system for restaurant management | `Odoo` `Python` `PostgreSQL` | ✅ Delivered |
 | **🌱 Green Agrimall** | Agricultural product trading ERP implementation | `Odoo v17` `Custom Modules` | ✅ Delivered |
 | **☕ Tim Hortons** | POS integration with custom business requirements | `Odoo POS` `JavaScript` | ✅ Delivered |
 | **💼 Freelance Projects** | Various mini-projects for trading companies | `Multiple Tech Stack` | 🔄 Ongoing |
