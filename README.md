@@ -24,7 +24,7 @@
 
 > **Experienced Odoo Developer** with 1+ years of professional expertise in ERP customization and implementation
 
-With more than 1 year of professional experience as an **Odoo Developer**, I specialize in both functional and technical aspects of Odoo (v16-v18). My expertise includes:
+With more than 1 year of professional experience as an **Odoo Developer**, I specialize in both functional and technical aspects of Odoo (v14-v19). My expertise includes:
 
 - 🔧 **Custom Module Development** using Python, JavaScript, and XML
 - 📊 **Custom Reports & POS Receipts** design and implementation  
