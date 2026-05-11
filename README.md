@@ -26,7 +26,7 @@ I build and maintain Odoo implementations end-to-end: custom modules, version mi
 **Aegis (Canadian-American industrial company) — Odoo Developer · Part-time**
 Sole developer on a production Odoo deployment of 124 custom modules across procurement, inventory, sales, and accounting.
 
-- **Led the v17 → v19 production migration solo** — zero data loss across all 124 modules, including Enterprise → Community conversion and the OpenUpgrade v18 intermediate step.
+- **Led the v17 → v19 production migration solo** — zero data loss across all modules, including Enterprise → Community conversion and the OpenUpgrade v18 intermediate step.
 - **Built the Sales Analysis Report (SAR) QWeb engine** — product image embedding via `image_data_uri()` with `bin_size=False`, UTF-8 currency encoding fix in `wkhtmltopdf`, A4 landscape pagination with fixed row heights, and invoice sequence aggregation across `sale_order_line → sale_order_line_invoice_rel → account_move_line → account_move` to handle Odoo 17's removal of the stored M2M junction table.
 
 **Rastgar — Junior Odoo Developer · Full-time (current)**
