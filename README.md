@@ -1,163 +1,74 @@
-# Hi 👋 I'm Abdul Basit — Python / Odoo Developer from Pakistan
+# Abdul Basit
 
-<div align="center">
-  
-  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=FF6BCB&center=true&vCenter=true&width=600&lines=Odoo+ERP+Developer;Python+%26+JavaScript+Expert;1%2B+Years+of+Experience;Building+Scalable+Solutions)](https://git.io/typing-svg)
-  
-</div>
+**Odoo ERP & Python Developer** · Islamabad, Pakistan
 
-## 📊 GitHub Statistics
+I build and maintain Odoo implementations end-to-end: custom modules, version migrations, database recovery, third-party integrations, and reporting. Production experience across Odoo 14–19 (Community and Enterprise) in Python, OWL.js, XML, and QWeb.
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ABKHAN7&show_icons=true&include_all_commits=true&count_private=true&theme=dracula&hide_border=true&bg_color=0D1117&title_color=FF6BCB&icon_color=FF6BCB&text_color=ffffff" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ABKHAN7&theme=dracula&hide_border=true&background=0D1117&stroke=FF6BCB&ring=FF6BCB&fire=FF6BCB&currStreakLabel=FF6BCB" alt="GitHub Streak" width="48%" />
-</div>
-
-<!-- Languages stats will show once you upload code repositories -->
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ABKHAN7&layout=compact&langs_count=8&theme=dracula&hide_border=true&bg_color=0D1117&title_color=FF6BCB&text_color=ffffff&hide=html,css" alt="Top Languages" width="60%" />
-</div>
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:abdulbasit.workofficial@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/abdul-basit-3166b3232)
+[![Upwork](https://img.shields.io/badge/Upwork-6FDA44?style=flat-square&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/~01824b2703ca5619a9)
+[![Portfolio](https://img.shields.io/badge/Portfolio-111827?style=flat-square&logo=githubpages&logoColor=white)](https://abdulbasit.workofficial.com)
 
 ---
 
-## 🚀 About Me
+## What I do
 
-> **Experienced Odoo Developer** with 1+ years of professional expertise in ERP customization and implementation
-
-With more than 1.5+ year of professional experience as an **Odoo Developer**, I specialize in both functional and technical aspects of Odoo (v14-v19). My expertise includes:
-
-- 🔧 **Custom Module Development** using Python, JavaScript, and XML
-- 📊 **Custom Reports & POS Receipts** design and implementation  
-- ⚡ **Workflow Automation** for enhanced business efficiency
-- 🔗 **Third-party System Integration** with Odoo ERP
-- 🏥 **Multi-domain Experience** in healthcare, trading, and POS systems
-
-I collaborate closely with cross-functional teams to deliver scalable, robust business solutions that drive operational excellence.
+- **Custom Odoo module development** — Python backend, OWL.js frontend, XML views, QWeb reports
+- **Version migrations** — Enterprise ↔ Community conversions and major-version upgrades using OpenUpgrade
+- **Database administration and recovery** — backup restoration, constraint resolution, Studio field reconstruction, admin reset via passlib
+- **Third-party integrations** — PrestaShop, eCommerce platforms, payment gateways, accounting systems
+- **Custom reports** — QWeb PDFs, the Odoo 17 / 18 / 19 accounting reports framework, POS receipts
+- **Process automation** — workflow rules, scheduled actions, custom approval chains, pricelist change tracking
 
 ---
 
-## 🛠️ Technologies & Tools
+## Selected work
 
-<div align="center">
+**Aegis (Canadian-American industrial company) — Odoo Developer · Part-time**
+Sole developer on a production Odoo deployment of 124 custom modules across procurement, inventory, sales, and accounting.
 
-### **Backend & ERP**
-<p>
-<img src="https://img.shields.io/badge/Odoo-8A2BE2?style=for-the-badge&logo=odoo&logoColor=white" alt="Odoo" />
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-<img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+- **Led the v17 → v19 production migration solo** — zero data loss across all 124 modules, including Enterprise → Community conversion and the OpenUpgrade v18 intermediate step.
+- **Built the Sales Analysis Report (SAR) QWeb engine** — product image embedding via `image_data_uri()` with `bin_size=False`, UTF-8 currency encoding fix in `wkhtmltopdf`, A4 landscape pagination with fixed row heights, and invoice sequence aggregation across `sale_order_line → sale_order_line_invoice_rel → account_move_line → account_move` to handle Odoo 17's removal of the stored M2M junction table.
+
+**Rastgar — Junior Odoo Developer · Full-time (current)**
+Maintain a production Odoo deployment with custom module development across procurement, inventory, sales, and accounting. Performed live database restoration from a corrupted backup into `rastgar_restored`, resolving PostgreSQL authentication errors, custom-module indentation failures, duplicate-key constraints, and missing Studio-generated columns; admin reset via passlib. Ongoing feature development and system administration.
+
+**Odoo v17 Community → v18 Enterprise migration — Upwork (Nov 2025)**
+Solo execution of a cross-version, cross-edition production database migration as a fixed-price contract. Delivered with a 5.0 / 5.0 client rating.
+
+**Custom financial report — Odoo 18 accounting framework**
+Built the `impetus_project_invoicing` report inside Odoo 18's accounting reports framework. Switched from native formula format to `code.expression_label` syntax (e.g., `PROJ_REV.balance`) to resolve a runtime formula-expansion error.
+
+**FoodieHub (solo project)**
+End-to-end restaurant tender management system covering procurement workflow, supplier management, and order tracking.
+
+**Green Agrimall — Odoo 17 implementation**
+ERP rollout for agricultural trading: product catalog, inventory, sales pipeline, and custom procurement modules.
+
+---
+
+## Stack
+
+**Core:** Python · PostgreSQL · Odoo 14–19 · OWL.js · XML · QWeb
+
+**Tooling:** Git · PyCharm · VS Code · Ubuntu Linux · OpenUpgrade · passlib · wkhtmltopdf
+
+**Adjacent:** JavaScript · HTML / CSS · REST APIs · webhooks · PrestaShop integration
+
+---
+
+## Education
+
+**B.Sc. Computer Science** — Kohat University of Science & Technology · 2021–2025
+
+---
+
+## Activity
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ABKHAN7&theme=github-dark&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" alt="GitHub Streak" />
 </p>
 
-### **Frontend & Web**
-<p>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-<img src="https://img.shields.io/badge/XML-FF6600?style=for-the-badge&logo=xml&logoColor=white" alt="XML" />
-</p>
-
-### **Programming Languages**
-<p>
-<img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#" />
-<img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
-</p>
-
-### **Development Tools**
-<p>
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-<img src="https://img.shields.io/badge/PyCharm-000000?style=for-the-badge&logo=pycharm&logoColor=white" alt="PyCharm" />
-<img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code" />
-<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
-</p>
-
-</div>
-
 ---
 
-## 🏆 Featured Projects
-
-<div align="center">
-
-| Project | Description | Technologies | Status |
-|---------|-------------|--------------|--------|
-| **🍔 FoodieHub(solo)** | Complete food tender system for restaurant management | `Odoo` `Python` `PostgreSQL` | ✅ Delivered |
-| **🌱 Green Agrimall** | Agricultural product trading ERP implementation | `Odoo v17` `Custom Modules` | ✅ Delivered |
-| **☕ Tim Hortons** | POS integration with custom business requirements | `Odoo POS` `JavaScript` | ✅ Delivered |
-| **💼 Freelance Projects** | Various mini-projects for trading companies | `Multiple Tech Stack` | 🔄 Ongoing |
-
-</div>
-
-### 🎯 Project Highlights
-
-- **🏥 Healthcare ERP**: Implemented patient management and billing systems
-- **📊 Trading Solutions**: Developed inventory and procurement modules
-- **🛒 POS Customizations**: Created custom receipt templates and workflows
-- **📈 Business Intelligence**: Built custom reports and dashboards
-
----
-
-## 🏅 GitHub Trophies
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=ABKHAN7&theme=dracula&no-frame=true&margin-w=10&margin-h=10&column=4&rank=SECRET,SSS,SS,S,AAA,AA,A,B" alt="GitHub Trophies" />
-</div>
-
----
-
-## 🤝 Let's Connect
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/abdul-basit-3166b3232)
-[![Upwork](https://img.shields.io/badge/Upwork-6FDA44?style=for-the-badge&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/~01824b2703ca5619a9)
-[![Guru](https://img.shields.io/badge/Guru-00B1E1?style=for-the-badge&logo=guru&logoColor=white)](https://www.guru.com/freelancers/abdul-basit-745)
-[![Fiverr](https://img.shields.io/badge/Fiverr-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white)](https://www.fiverr.com/s/WELwR0Q)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abdulbasit.workofficial@gmail.com)
-
-</div>
-
----
-
-## 🎨 Profile Views & Social Stats
-
-<div align="center">
-  
-  ![Profile Views](https://komarev.com/ghpvc/?username=ABKHAN7&color=blueviolet&style=for-the-badge&label=Profile+Views)
-  
-  <img src="https://img.shields.io/github/followers/ABKHAN7?label=Followers&style=for-the-badge&color=blue" alt="GitHub Followers" />
-  <img src="https://img.shields.io/github/stars/ABKHAN7?label=Stars&style=for-the-badge&color=yellow" alt="GitHub Stars" />
-  
-  <!-- Animated Contribution Graph -->
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ABKHAN7&bg_color=0D1117&color=ff6bcb&line=ff6bcb&point=ffffff&area=true&hide_border=true" width="100%" alt="Contribution Graph"/>
-  
-  <!-- Fun Fact Generator -->
-  <img src="https://readme-jokes.vercel.app/api?theme=dracula" alt="Jokes Card" width="100%" />
-  
-</div>
-
----
-
-<div align="center">
-  
-### 🏆 GitHub Achievements
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ABKHAN7&theme=dracula" width="100%" alt="Profile Summary"/>
-
-</div>
-
----
-
-<div align="center">
-  
-### 💭 Quote of the Day
-  
-[![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dracula)](https://github.com/piyushsuthar/github-readme-quotes)
-
-</div>
-
----
-
-<div align="center">
-  <h3>⭐ Star my repositories if you find them useful!</h3>
-  <p><em>Happy to connect and collaborate on exciting projects! 🚀</em></p>
-</div>
+*Open to senior Odoo development roles, complex integration work, and ERP migration projects. Reach out via email or LinkedIn.*
